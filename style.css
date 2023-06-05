@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 30px 100px 0 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+header ul li {
+    margin: 0 40px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.loginbutton {
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+}
+
+.loginbutton a {
+    margin: 20px;
+}
+
+.loginbutton button {
+    background-color: #7119E2;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;   
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*----Estilo contenido----*/
+
+.contenido {
+    padding: 40px 100px 0 100px;
+
+}
+
+.seccion1 {
+    width: 50%;
+    float: left;
+
+}
+
+.seccion1 p {
+    width: 500px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 15px 0 20px 0;
+    color: rgb(100, 95, 95);
+}
+
+.seccion1 h1 {
+    font-size: 32px;
+    width: 400px;
+
+}
+
+.seccion1 h2 {
+    font-size: 18px;
+    margin: 0 0 6px 0;
+    
+}
+
+.seccion1 img {
+    width: 500px;
+    border-radius: 7px;
+
+}
+
+.uk, .france {
+    float: left;
+    width: 200px;
+    margin-right: 50px;
+
+}
+
+.uk h3, .france h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.uk p, .france p {
+    width: auto;
+    font-size: 12px;
+    margin-left: 20px;
+
+}
+
+.icono-location {
+    margin-top: 15px;
+    float: left; 
+}
+
+.icono-phone {
+    float: left; 
+}
+
+
+ /*----Estilo formulario----*/
+.contenidoformulario {
+    width: 450px;
+    border-radius: 5px;
+    float: right;
+    padding: 20px 20px 10px 30px;
+    box-shadow:10px 10px 50px 10px rgba(227, 220, 220, 0.864);
+    font-size: 12px ;
+  }
+  
+  input, label {
+      display: block;
+    }
+  
+  .form div {
+      float:left;
+      margin-right: 20px;
+    }
+  
+  .nombre-apellido {
+    width: 180px;
+    padding: 10px 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    }
+  
+  .input {
+    width: 380px;
+    padding: 10px 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: grey;
+    
+  }
+  
+  
+  .buttonsend {
+    width: 380px;
+    background-color: #7119E2;
+    color: white;
+    padding: 14px 10px;
+    margin: 10px 0 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
