@@ -85,31 +85,31 @@
 
 
         <div class="contenidoformulario">
-            <form class="form">
+            <form class="form" onsubmit="datosFormulario(event)">
                 <section>
                 <div>
                 <label for="nombre">First Name</label>
-                <input type="text" id="nombre" class="nombre-apellido" required placeholder="First Name">
+                <input type="text" name="nombre" id="nombre" class="nombre-apellido" required placeholder="First Name">
                 </div>
             
                 <div>
                 <label for="apellido">Last Name</label>
-                <input type="text" id="apellido" class="nombre-apellido" required placeholder="Last Name">
+                <input type="text" name="apellido" id="apellido" class="nombre-apellido" required placeholder="Last Name">
                 </div>
                 </section>
             
                 <section>
                 <label for="email">Email Address</label>
-                <input type="Email" id="email" class="input" required placeholder="Email">
+                <input type="Email" name="email" id="email" class="input" required placeholder="Email">
               
                 <label for="company">Company Name</label>
-                <input type="text" id="company" class="input" required placeholder="Company Name">  
+                <input type="text" name="company" id="company" class="input" required placeholder="Company Name">  
             
                 <label for="telefono">Phone Number</label>
-                <input type="text" id="telefono" class="input" required placeholder="Phone Number">  
+                <input type="text" name="telefono" id="telefono" class="input" required placeholder="Phone Number">  
 
                 <label for="mensaje">Message</label>
-                <textarea id="mensaje" class="input" style="height: 90px">Message
+                <textarea id="mensaje" name="mensaje" class="input" style="height: 90px">Message
                 </textarea>
             
                 </section>
@@ -119,6 +119,6 @@
         </div>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
